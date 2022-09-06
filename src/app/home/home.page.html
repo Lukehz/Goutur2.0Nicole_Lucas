@@ -1,0 +1,25 @@
+<ion-header [translucent]="true" id="goutur">
+  <ion-toolbar>
+    <ion-buttons slot="start" id="btnMenu">
+      <ion-button (click)="toggleMenu()">
+        <ion-menu-button slot="icon-only" name="menu"></ion-menu-button>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-title id="tlt">
+      GOUTUR    
+    </ion-title>
+
+    <ion-buttons slot="end" id="btnHelp">
+      <ion-button (click)="toggleMenu()">
+        <ion-icon slot="icon-only" name="help"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-searchbar id="search"></ion-searchbar>
+<ion-content>
+  <div id="map"></div>
+</ion-content>
+
+
